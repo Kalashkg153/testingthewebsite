@@ -8,6 +8,7 @@ body{
     justify-content : center;
     align-items : center;
     text-align : center;
+    overflow : hidden;
 }
 
 /* IMAGE BACKGROUND FRONT */
@@ -57,6 +58,12 @@ height: 413px;
 
  /* media query */
  @media screen and (max-width: 480px) {
+     body{
+         justify-content : center;
+         align-items : center;
+         overflow : hidden;
+     }
+     
     .card-img-top{
       width: auto;
       height: auto;
