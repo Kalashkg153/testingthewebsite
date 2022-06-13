@@ -51,7 +51,7 @@ height: 413px;
 
 
  /* media query */
- @media screen and (max-width: 800px) {
+ @media screen and (max-width: 500px) {
     .card-img-top{
       width: auto;
       height: auto;
