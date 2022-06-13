@@ -8,7 +8,7 @@ body{
     justify-content : center;
     align-items : center;
     text-align : center;
-    overflow : hidden;
+    overflow-x : hidden;
 }
 
 /* IMAGE BACKGROUND FRONT */
@@ -61,7 +61,7 @@ height: 413px;
      body{
          justify-content : center;
          align-items : center;
-         overflow : hidden;
+         overflow-x : hidden;
      }
      
     .card-img-top{
