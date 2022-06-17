@@ -161,7 +161,7 @@
 
  .download button{
      color: white;
-     width: 275px;
+     width: 270px;
      background-color: black;
      border-radius: 40px;
 
@@ -259,7 +259,7 @@ li{
 
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   
   body{
     overflow-x : none;
@@ -291,6 +291,9 @@ li{
  }
  .download-box{
    padding: 20px;
+ }
+ .download button{
+      width: 60%;
  }
  .details{
    flex-direction: row;
