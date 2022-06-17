@@ -295,11 +295,13 @@ li{
  .download button{
       width: 60%;
  }
- .details{
-   flex-direction: row;
- }
+
  .disclaimer{
    padding: 10px 30px;
+ }
+
+ .details2 , footer{
+  padding: 0;
  }
    
 }
