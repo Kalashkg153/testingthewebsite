@@ -8,7 +8,13 @@
 .main-box{
     background-image: linear-gradient( 134.6deg,  rgb(22, 0, 59) 70%, rgb(26, 26, 64) 30% );
 }*/
-
+.overwolf img{
+    width: 150px ;
+    height: 100px;
+}
+.stats span{  
+   font-size: 35px;
+}
 .mySlides{
     display: none;
 }
@@ -116,6 +122,23 @@
       width: 100px;
       height: 120px;
   }
+  .explore-box{
+     display: flex;
+     padding: 4% 7%;
+     flex-direction: row;
+  }
+  .explore img{
+      border-radius: 15px;
+      width: 100%;
+      height: 100%;
+  }
+  .explore img:hover{
+      cursor: pointer;
+  }
+  .explore-info{
+     
+    padding: 4% 7%;
+  }
 
   .faq{
       padding: 20px 200px;
@@ -180,7 +203,37 @@
         
  }
 
+ .subscribe{
+  margin: 3% 13% ;
+ background-image: linear-gradient( #0b098c , #3a94da);
+  align-items: center;
+  text-align: center;
+  color: bisque;
+  border-radius: 10%;
+  padding: 2% 20%;
+ }
+ .subscribe-button{
+  border: 2px solid rgb(152, 199, 235);
+  border-radius: 35px;
+  background-color: #08419b;
+  padding: 3% 3%;
+  height: 65px;
+  width: 100%;
+ }
+ .subscribe-button button{
+  border-radius:25px; 
+  color: bisque;
+  width: 24%;
+  height: 120%;
+  border: 2px groove #ec93ed;
+   background-color: rgb(146, 28, 83);
+ }
 
+ .subscribe-button input{
+     width: 50%;
+     color: #f2f2f2;
+     height: 70%;
+ }
  footer{
      padding: 40px;
      background-image: white;
@@ -259,7 +312,7 @@ li{
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
   
   body{
     overflow-x : none;
@@ -289,9 +342,12 @@ li{
  .cardd{
   width: auto;
  }
-    .faq span{
-        font-size : small;
-    }
+ .explore-box{
+   flex-direction: column;
+ }
+ .faq span{
+   font-size: small;
+ }
  .download-box{
    padding: 20px;
  }
@@ -306,5 +362,15 @@ li{
  .details2 , footer{
   padding: 0;
  }
-   
+ .subscribe-button button{
+  
+  width: auto ;
+  height: auto;
+ }
+ .subscribe{
+   margin-bottom: 12%;
+   padding: 2% 6%;
+ }
+ 
+ 
 }
